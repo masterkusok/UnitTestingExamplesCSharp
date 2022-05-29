@@ -60,13 +60,14 @@ namespace CalculatorTests
         }
 
         [TestMethod]
+        [ExpectedException(typeof(DivideByZeroException))]
         public void Divide_12divide0_throwsDivideByZeroException()
         {
             // arrange 
             int x = 12;
             int y = 0;
-            // act & assert
-            Assert.ThrowsException<DivideByZeroException>( ()=> { MyCalc.Divide(x, y); });
+            // act 
+            MyCalc.Divide(x, y);
         }
     }
 }
