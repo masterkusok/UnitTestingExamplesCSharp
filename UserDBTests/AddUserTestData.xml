@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserDetails>
+	<User id ="0" name="Oleg" age="22" email="olegkrutoy@gmail.com"/>
+	<User id ="1" name="Bad Guy" age="20" email="badguy@gmail.com"/>
+	<User id ="2" name="Denchik" age="40" email="invalidemailgmail.com"/>
+	<User id ="3" name="Little Guy" age="2" email="iamtwoyearsoldlol@gmail.com"/>
+</UserDetails>

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringStorage", "StringStor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringStorageTests", "StringStorageTests\StringStorageTests.csproj", "{D23F7B84-A767-4B5A-A36D-6D2A425062D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDB", "UserDB\UserDB.csproj", "{22F7898A-3695-4FA7-9FFF-11091421F365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDBTests", "UserDBTests\UserDBTests.csproj", "{C1B4FE73-EA50-48EC-B526-D4A7583D3708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D23F7B84-A767-4B5A-A36D-6D2A425062D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23F7B84-A767-4B5A-A36D-6D2A425062D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23F7B84-A767-4B5A-A36D-6D2A425062D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F7898A-3695-4FA7-9FFF-11091421F365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F7898A-3695-4FA7-9FFF-11091421F365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F7898A-3695-4FA7-9FFF-11091421F365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F7898A-3695-4FA7-9FFF-11091421F365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B4FE73-EA50-48EC-B526-D4A7583D3708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B4FE73-EA50-48EC-B526-D4A7583D3708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B4FE73-EA50-48EC-B526-D4A7583D3708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B4FE73-EA50-48EC-B526-D4A7583D3708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
